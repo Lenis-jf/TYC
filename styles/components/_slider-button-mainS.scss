@@ -10,11 +10,10 @@ section.central-main-section {
     border-radius: 20px;
     background-color: #D9D9D9;
     box-shadow: 0px 3px 5px 1px fade-out($color: #292929, $amount: 0.6);
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
     cursor: pointer;
     div.circle-part {
       position: absolute;
-      right: 0;
       top: 0;
       width: 35px;
       height: 35px;
@@ -23,11 +22,11 @@ section.central-main-section {
       border: solid 0.5px fade-out($color: #928F8F, $amount: 0.4);
       box-shadow: 0px 1px 2px 0px fade-out($color: #292929, $amount: 0.6);
       cursor: pointer;
-      transition: all 0.3s ease-in;
+      transition: all 0.2s ease-in;
     }
   }
   input#slider-button:checked ~ label.main-slider-button-container div.circle-part {
-    left: 0;
+    right: 0;
   }
   input#slider-button:checked ~ label.main-slider-button-container {
     background-color: #1DE825;
