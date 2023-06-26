@@ -1,0 +1,23 @@
+section.central-main-section {
+  div.action-button {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    background-color: $header-background-color;
+    justify-content: center;
+    border-radius: 10px;
+    color: #fff;
+    font-family: $header-font;
+    font-size: 1.9rem;
+    align-items: center;
+    box-shadow: 1px 3px 6px 0px fade-out($color: #292929, $amount: 0.6);
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+  div.action-button:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+}

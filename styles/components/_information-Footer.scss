@@ -1,0 +1,26 @@
+footer {
+  div.footer-information-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    div.tyc-links {
+      padding-left: 15px;
+      text-align: left;
+      span, a {
+        display: block;
+        font-size: 1.5rem;
+        color: #fff;
+        text-decoration: none;
+        margin-top: 5px;
+        cursor: pointer;
+      }
+      span {
+        width: 100%;
+        font-family: $header-font;
+        font-size: 3rem;
+        text-align: left;
+        cursor: default;
+      }
+    }
+  }
+}

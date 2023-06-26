@@ -1,0 +1,30 @@
+section.central-main-section {
+  div.text {
+    width: 290px;
+    margin: 70px auto 70px auto;
+    padding: 0px 10px 0 10px;
+    text-align: center;
+  }
+  div.text-1 {
+    margin-top: 100px;
+  }
+  div.list-container {
+    text-align: left;
+    line-height: 22px;
+    list-style-type: circle;
+    padding: 0px 0px 0px 20px;
+    span {
+      font-weight: bold;
+    }
+    li {
+      margin-top: 10px;
+    }
+  }
+  div.text-4 {
+    margin-bottom: 20px;
+  }
+  div.text-5 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+}
