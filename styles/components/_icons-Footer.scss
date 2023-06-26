@@ -11,6 +11,10 @@ footer {
       background-repeat: no-repeat;
       background-size: contain;
       cursor: pointer;
+      transition: all 0.3s ease-in;
+    }
+    div.social-media--icon:hover {
+      opacity: 0.5;
     }
     div.instagram {
       background-image: url("./assets/instagram.svg");

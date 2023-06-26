@@ -1,0 +1,38 @@
+header.title {
+  ul.menu-list {
+    display: flex;
+    flex-direction: column;
+    height: 0;
+    opacity: 0;
+    font-family: $body-font;
+    font-size: 1.6rem;
+    color: #fff;
+    transition: height 0.4s ease-in;
+    li {
+      width: 100%;
+      height: 100%;
+      border-top: solid #fff 0.3px;
+      padding-top: 35px;
+      transition: all 0.3s ease-in;
+      opacity: 0;
+      cursor: pointer;
+    }
+    li:hover {
+      background-color: #311f618f;
+    }
+  }
+  input#menu:checked ~ ul.menu-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 84vh;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    opacity: 1;
+  }
+  input#menu:checked ~ ul.menu-list li {
+    opacity: 1;
+  }
+}
+

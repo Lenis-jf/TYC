@@ -13,6 +13,7 @@ footer {
         text-decoration: none;
         margin-top: 5px;
         cursor: pointer;
+        transition: all 0.3s ease-in;
       }
       span {
         width: 100%;
@@ -20,6 +21,9 @@ footer {
         font-size: 3rem;
         text-align: left;
         cursor: default;
+      }
+      a:hover {
+        text-decoration: underline;
       }
     }
   }
